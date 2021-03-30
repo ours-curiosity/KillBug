@@ -3,11 +3,6 @@ use_frameworks!
 platform :ios, '9.0'
 
 target 'KillBug_Example' do
-  pod 'KillBug', :path => '../'
+  pod 'CTKillBug', :path => '../'
 
-  target 'KillBug_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end

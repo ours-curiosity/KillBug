@@ -7,8 +7,8 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'KillBug'
-  s.version          = '0.1.1'
+  s.name             = 'CTKillBug'
+  s.version          = '0.1.2'
   s.summary          = '用户操作自动监测工具'
 
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/tliens/KillBug'
+  s.homepage         = 'https://github.com/ours-curiosity/KillBug'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'tliens' => 'maninios@163.com' }
-  s.source           = { :git => 'https://github.com/tliens/KillBug.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ours-curiosity/KillBug.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'

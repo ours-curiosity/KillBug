@@ -7,7 +7,7 @@
 //
 
 #import "UIAppDelegate.h"
-#import <KillBug/KBAutoTrackManager.h>
+#import <CTKillBug/KBAutoTrackManager.h>
 
 @implementation UIAppDelegate
 
